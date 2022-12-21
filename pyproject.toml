@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "LeetCode"
+version = "0.1.0"
+description = "Answer Codes of LeetCode problems."
+authors = ["gnkm <genki.matsunaga@gmail.com>"]
+
+[tool.poetry.dependencies]
+# https://leetcode.com/playground/DreLujJB
+python = "3.10.2"
+
+numpy = "1.22.1"
+scipy = "1.7.3"
+
+[tool.poetry.dev-dependencies]
+black = "22.12.0"
+flake8 = "6.0.0"
+pylint = "2.15.9"
+pytest = "7.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

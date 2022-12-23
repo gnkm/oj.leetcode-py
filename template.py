@@ -8,3 +8,15 @@ URL: {URL}
 
 difficulty: {difficulty}
 """
+
+
+# my code.
+# class Solution:
+#     pass
+
+
+class SolutionModelAnswer:
+    """
+    {URL}
+    """
+    pass

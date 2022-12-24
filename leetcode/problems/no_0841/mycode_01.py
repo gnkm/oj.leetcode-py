@@ -33,7 +33,9 @@ class Solution:
 
 
 class SolutionModelAnswer:
-    """
+    """Breadth first search.
+
+    cf.
     https://leetcode.com/problems/keys-and-rooms/solutions/133880/keys-and-rooms/
     """
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:

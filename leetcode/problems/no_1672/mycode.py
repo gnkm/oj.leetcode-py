@@ -22,6 +22,7 @@ class Solution:
 
 class SolutionModelAnswer:
     """
-    {URL}
+    nothing.
     """
+
     pass

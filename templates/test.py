@@ -1,5 +1,5 @@
-from leetcode.problems.no_{ID}.mycode_01 import Solution as SolutionMyCode01
-from leetcode.problems.no_{ID}.mycode_01 import SolutionModelAnswer
+from leetcode.problems.no_{ID}.mycode import Solution as SolutionMyCode01
+from leetcode.problems.no_{ID}.mycode import SolutionModelAnswer
 
 
 # Input examples here

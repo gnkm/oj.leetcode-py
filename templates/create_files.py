@@ -15,7 +15,7 @@ import sys
 import icecream
 
 
-TEMPLATE_ANSWER_CODE_FILE = "templates/mycode_01.py"
+TEMPLATE_ANSWER_CODE_FILE = "templates/mycode.py"
 TEMPLATE_TEST_CODE_FILE = "templates/test.py"
 
 

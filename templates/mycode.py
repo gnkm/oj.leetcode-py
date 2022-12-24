@@ -9,10 +9,12 @@ URL: {URL}
 difficulty: {difficulty}
 """
 
+from typing import Dict, List, Union
+
 
 # my code.
-# class Solution:
-#     pass
+class Solution:
+    pass
 
 
 class SolutionModelAnswer:

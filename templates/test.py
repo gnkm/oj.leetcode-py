@@ -14,11 +14,13 @@ class TestMyCode:
     def test_00(self):
         case_num = 0
         solution = SolutionMyCode()
-        # assert
+        # edit method name
+        assert solution.problem_function(CASES[case_num]["input"]) == CASES[case_num]["answer"]
 
 
 class TestModelAnswer:
     def test_00(self):
         case_num = 0
         solution = SolutionMyCode()
-        # assert
+        # edit method name
+        assert solution.problem_function(CASES[case_num]["input"]) == CASES[case_num]["answer"]

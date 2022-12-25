@@ -2,6 +2,7 @@ import pytest
 
 from leetcode.problems.no_0383.mycode import Solution as SolutionMyCode
 from leetcode.problems.no_0383.mycode import SolutionModelAnswer
+from leetcode.problems.no_0383.mycode import SolutionExampleAnswer01
 
 
 # Input examples here
@@ -18,21 +19,27 @@ class TestMyCode:
         solution = SolutionMyCode()
         ransome_note = CASES[case_num]["input"]["ransome_note"]
         magazine = CASES[case_num]["input"]["magazine"]
-        assert solution.canConstruct(ransome_note, magazine) == CASES[case_num]["answer"]
+        assert (
+            solution.canConstruct(ransome_note, magazine) == CASES[case_num]["answer"]
+        )
 
     def test_01(self):
         case_num = 1
         solution = SolutionMyCode()
         ransome_note = CASES[case_num]["input"]["ransome_note"]
         magazine = CASES[case_num]["input"]["magazine"]
-        assert solution.canConstruct(ransome_note, magazine) == CASES[case_num]["answer"]
+        assert (
+            solution.canConstruct(ransome_note, magazine) == CASES[case_num]["answer"]
+        )
 
     def test_02(self):
         case_num = 2
         solution = SolutionMyCode()
         ransome_note = CASES[case_num]["input"]["ransome_note"]
         magazine = CASES[case_num]["input"]["magazine"]
-        assert solution.canConstruct(ransome_note, magazine) == CASES[case_num]["answer"]
+        assert (
+            solution.canConstruct(ransome_note, magazine) == CASES[case_num]["answer"]
+        )
 
 
 class TestModelAnswer:
@@ -42,4 +49,6 @@ class TestModelAnswer:
         solution = SolutionMyCode()
         ransome_note = CASES[case_num]["input"]["ransome_note"]
         magazine = CASES[case_num]["input"]["magazine"]
-        assert solution.canConstruct(ransome_note, magazine) == CASES[case_num]["answer"]
+        assert (
+            solution.canConstruct(ransome_note, magazine) == CASES[case_num]["answer"]
+        )

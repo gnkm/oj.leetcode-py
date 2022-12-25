@@ -41,12 +41,13 @@ class SolutionModelAnswer:
 
     https://leetcode.com/problems/fizz-buzz/solutions/173828/fizz-buzz/
     """
+
     def fizzBuzz(self, n: int) -> List[str]:
         # ans list
         ans = []
 
         # Dictionary to store all fizzbuzz mappings
-        fizz_buzz_dict = {3 : "Fizz", 5 : "Buzz"}
+        fizz_buzz_dict = {3: "Fizz", 5: "Buzz"}
 
         # List of divisors which we will iterate over.
         divisors = list(fizz_buzz_dict.keys())
@@ -65,6 +66,6 @@ class SolutionModelAnswer:
                 num_ans_str.append(str(num))
 
             # Append the current answer str to the ans list
-            ans.append(''.join(num_ans_str))
+            ans.append("".join(num_ans_str))
 
         return ans

@@ -6,9 +6,28 @@ from leetcode.problems.no_0412.mycode import SolutionModelAnswer
 
 # Input examples here
 CASES = [
-    {"input": 3 , "answer": ["1","2","Fizz"]},
-    {"input": 5, "answer": ["1","2","Fizz","4","Buzz"]},
-    {"input": 15, "answer": ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]},
+    {"input": 3, "answer": ["1", "2", "Fizz"]},
+    {"input": 5, "answer": ["1", "2", "Fizz", "4", "Buzz"]},
+    {
+        "input": 15,
+        "answer": [
+            "1",
+            "2",
+            "Fizz",
+            "4",
+            "Buzz",
+            "Fizz",
+            "7",
+            "8",
+            "Fizz",
+            "Buzz",
+            "11",
+            "Fizz",
+            "13",
+            "14",
+            "FizzBuzz",
+        ],
+    },
 ]
 
 

@@ -58,3 +58,23 @@ leetcode/tests/problems
    ├── __init__.py
    └── test.py
 ```
+
+Make some files for contests.
+
+```
+python create_files.py 12 --problem_type contests
+```
+
+Then, following files are created.
+
+```
+leetcode/contests
+└── no_0012
+   ├── __init__.py
+   └── mycode_01.py
+
+leetcode/tests/contests
+└── no_0012
+   ├── __init__.py
+   └── test.py
+```

@@ -38,3 +38,23 @@ leetcode/tests/problems
    ├── __init__.py
    └── test.py
 ```
+
+e.g.
+
+```
+python create_files.py 12
+```
+
+Then, following files are created.
+
+```
+leetcode/problems
+└── no_0012
+   ├── __init__.py
+   └── mycode_01.py
+
+leetcode/tests/problems
+└── no_0012
+   ├── __init__.py
+   └── test.py
+```

@@ -68,3 +68,9 @@ if __name__ == "__main__":
     debug(
         set(Counter("abcabc").elements())
     )  # ic| set(Counter("abcabc").elements()): {'c', 'a', 'b'}
+    debug(
+        Counter("abcabc").items()
+    )  # ic| Counter("abcabc").items(): dict_items([('a', 2), ('b', 2), ('c', 2)])
+    debug(
+        [(c, v) for c, v in Counter("abcabc").items()]
+    )  # [('a', 2), ('b', 2), ('c', 2)]

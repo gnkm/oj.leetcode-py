@@ -35,6 +35,17 @@ class SolutionModelAnswer:
     pass
 
 
+class SolutionExampleAnswer01:
+    """
+    https://leetcode.com/problems/ransom-note/solutions/294576/easy-understand-python-solution/?languageTags=python3
+    """
+
+    def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+        counter_ransome_note = Counter(ransomNote)
+        counter_magazine = Counter(magazine)
+        return len(list(counter_ransome_note - counter_magazine)) == 0
+
+
 if __name__ == "__main__":
     import pkg_resources
 

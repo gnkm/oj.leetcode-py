@@ -52,3 +52,32 @@ class TestModelAnswer:
         assert (
             solution.canConstruct(ransome_note, magazine) == CASES[case_num]["answer"]
         )
+
+
+class TestExampleAnswer01:
+    def test_00(self):
+        case_num = 0
+        solution = SolutionExampleAnswer01()
+        ransome_note = CASES[case_num]["input"]["ransome_note"]
+        magazine = CASES[case_num]["input"]["magazine"]
+        assert (
+            solution.canConstruct(ransome_note, magazine) == CASES[case_num]["answer"]
+        )
+
+    def test_01(self):
+        case_num = 1
+        solution = SolutionExampleAnswer01()
+        ransome_note = CASES[case_num]["input"]["ransome_note"]
+        magazine = CASES[case_num]["input"]["magazine"]
+        assert (
+            solution.canConstruct(ransome_note, magazine) == CASES[case_num]["answer"]
+        )
+
+    def test_02(self):
+        case_num = 2
+        solution = SolutionExampleAnswer01()
+        ransome_note = CASES[case_num]["input"]["ransome_note"]
+        magazine = CASES[case_num]["input"]["magazine"]
+        assert (
+            solution.canConstruct(ransome_note, magazine) == CASES[case_num]["answer"]
+        )

@@ -11,14 +11,14 @@ CASES = [
 
 
 class TestMyCode:
-    def test_01(self):
+    def test_00(self):
         case_num = 0
         solution = SolutionMyCode()
         # assert
 
 
 class TestModelAnswer:
-    def test_01(self):
+    def test_00(self):
         case_num = 0
         solution = SolutionMyCode()
         # assert

@@ -30,8 +30,17 @@ class TestMyCode:
 
 
 class TestModelAnswer:
-    @pytest.mark.skip
     def test_00(self):
         case_num = 0
+        solution = SolutionMyCode()
+        assert solution.fizzBuzz(CASES[case_num]["input"]) == CASES[case_num]["answer"]
+
+    def test_01(self):
+        case_num = 1
+        solution = SolutionMyCode()
+        assert solution.fizzBuzz(CASES[case_num]["input"]) == CASES[case_num]["answer"]
+
+    def test_02(self):
+        case_num = 2
         solution = SolutionMyCode()
         assert solution.fizzBuzz(CASES[case_num]["input"]) == CASES[case_num]["answer"]

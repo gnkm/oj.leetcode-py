@@ -43,7 +43,7 @@ class SolutionExampleAnswer01:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         counter_ransome_note = Counter(ransomNote)
         counter_magazine = Counter(magazine)
-        return len(list(counter_ransome_note - counter_magazine)) == 0
+        return list(counter_ransome_note - counter_magazine) == []
 
 
 if __name__ == "__main__":

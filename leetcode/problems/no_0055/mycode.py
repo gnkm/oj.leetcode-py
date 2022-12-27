@@ -63,5 +63,21 @@ class SolutionModelAnswer:
         return True
 
 
+class SolutionEx01(object):
+    """
+    https://leetcode.com/problems/jump-game/solutions/774588/python-easy-linear-time-o-n-and-space-o-1-explanation/?orderBy=most_votes&languageTags=python3
+    """
+
+    def canJump(self, nums: List[int]) -> bool:
+        reachableIndex = 0
+        for index, num in enumerate(nums):
+            if index + num >= reachableIndex:
+                reachableIndex = index + num
+            if index == reachableIndex:
+                break
+
+        return reachableIndex >= len(nums) - 1
+
+
 if __name__ == "__main__":
     pass

@@ -4,6 +4,7 @@ from leetcode.problems.no_0055.mycode import Solution as SolutionMyCode
 from leetcode.problems.no_0055.mycode import (
     SolutionRecursively as SolutionMyCodeRecursively,
 )
+from leetcode.problems.no_0055.mycode import SolutionEx01
 from leetcode.problems.no_0055.mycode import SolutionModelAnswer
 
 
@@ -32,6 +33,7 @@ class TestMyCode:
             self.solution.canJump(CASES[case_num]["input"]) == CASES[case_num]["answer"]
         )
 
+    @pytest.mark.skip
     def test_01(self):
         case_num = 1
         assert (
@@ -103,6 +105,46 @@ class TestModelAnswer:
     @pytest.mark.skip
     def test_00(self):
         case_num = 0
+        assert (
+            self.solution.canJump(CASES[case_num]["input"]) == CASES[case_num]["answer"]
+        )
+
+
+class TestEx01:
+    solution = SolutionEx01()
+
+    def test_00(self):
+        case_num = 0
+        assert (
+            self.solution.canJump(CASES[case_num]["input"]) == CASES[case_num]["answer"]
+        )
+
+    def test_01(self):
+        case_num = 1
+        assert (
+            self.solution.canJump(CASES[case_num]["input"]) == CASES[case_num]["answer"]
+        )
+
+    def test_02(self):
+        case_num = 2
+        assert (
+            self.solution.canJump(CASES[case_num]["input"]) == CASES[case_num]["answer"]
+        )
+
+    def test_03(self):
+        case_num = 3
+        assert (
+            self.solution.canJump(CASES[case_num]["input"]) == CASES[case_num]["answer"]
+        )
+
+    def test_04(self):
+        case_num = 4
+        assert (
+            self.solution.canJump(CASES[case_num]["input"]) == CASES[case_num]["answer"]
+        )
+
+    def test_05(self):
+        case_num = 5
         assert (
             self.solution.canJump(CASES[case_num]["input"]) == CASES[case_num]["answer"]
         )

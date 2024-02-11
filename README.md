@@ -6,7 +6,7 @@
 
 ```
 asdf install python 3.11.7
-poetry use env $HOME/.asdf/installs/python/3.11.7/bin/python
+poetry env use $HOME/.asdf/installs/python/3.11.7/bin/python
 ```
 
 ### Prepare

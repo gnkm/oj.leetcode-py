@@ -77,3 +77,9 @@ leetcode/tests/contests
    ├── __init__.py
    └── test.py
 ```
+
+### Test
+
+```
+pytest --exitfirst leetcode/tests/problems/no_0012/test.py
+```

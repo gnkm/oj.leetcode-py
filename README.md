@@ -5,9 +5,8 @@
 ### Create Python virtual env
 
 ```
-anyenv install pyenv
-pyenv install 3.10.2
-poetry env use $HOME/.anyenv/envs/pyenv/versions/3.10.2/bin/python
+asdf install python 3.11.7
+poetry use env $HOME/.asdf/installs/python/3.11.7/bin/python
 ```
 
 ### Prepare

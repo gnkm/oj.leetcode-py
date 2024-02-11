@@ -32,7 +32,6 @@ from typing import List
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        ret = []
         for first_num_index, first_num in enumerate(nums):
             second_nums = deepcopy(nums)
             for second_num_index, second_num in enumerate(second_nums):

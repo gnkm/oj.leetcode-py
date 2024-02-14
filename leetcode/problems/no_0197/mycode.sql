@@ -1,3 +1,4 @@
+-- # SQL 50
 -- Rising Temperature - LeetCode
 -- https://leetcode.com/problems/rising-temperature/solutions/3716884/mysql-simple-and-clean-beats-88/?envType=study-plan-v2&envId=top-sql-50
 

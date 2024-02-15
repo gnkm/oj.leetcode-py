@@ -1,4 +1,4 @@
--- # SQL 50
+-- #SQL50
 -- Product Sales Analysis I - LeetCode
 -- https://leetcode.com/problems/product-sales-analysis-i/description/?envType=study-plan-v2&envId=top-sql-50
 

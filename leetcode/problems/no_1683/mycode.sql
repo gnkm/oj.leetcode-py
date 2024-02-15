@@ -1,4 +1,4 @@
--- # SQL 50
+-- #SQL50
 -- Invalid Tweets - LeetCode
 -- https://leetcode.com/problems/invalid-tweets/description/?envType=study-plan-v2&envId=top-sql-50
 

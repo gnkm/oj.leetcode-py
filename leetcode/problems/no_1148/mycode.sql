@@ -1,4 +1,4 @@
--- # SQL 50
+-- #SQL50
 -- Article Views I - LeetCode
 -- https://leetcode.com/problems/article-views-i/description/?envType=study-plan-v2&envId=top-sql-50
 

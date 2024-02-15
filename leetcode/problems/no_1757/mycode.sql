@@ -1,4 +1,4 @@
--- # SQL 50
+-- #SQL50
 -- Recyclable and Low Fat Products - LeetCode
 -- https://leetcode.com/problems/recyclable-and-low-fat-products/description/?envType=study-plan-v2&envId=top-sql-50
 

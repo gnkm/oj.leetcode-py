@@ -15,7 +15,6 @@ from typing import Dict, List, Union
 
 import icecream
 
-
 debug = icecream.ic
 
 
@@ -41,6 +40,7 @@ class SolutionRecursively:
 
     Time limit exceed in case 72.
     """
+
     def canJump(self, nums: List[int]) -> bool:
         if len(nums) <= 1:
             return True
@@ -52,6 +52,25 @@ class SolutionRecursively:
             return True
 
         return any([self.canJump(nums[i:]) for i in range(1, nums[0] + 1)])
+
+
+class SolutionRecursively_02:
+    def canJump(self, nums: List[int]) -> bool:
+        self.nums = nums
+        return self._can_jump(len(nums) - 1)
+
+    def _can_jump(self, n):
+        """self.nums のインデックス n に移動できるか否かを返す。
+
+        Args:
+            n (_type_): 移動先のインデックス
+
+        Returns:
+            bool: 移動可能: True / 不可: False
+        """
+        if n <= 0:
+            return True
+        return any([self._can_jump(i) for i in range(1, n)])
 
 
 class SolutionModelAnswer:

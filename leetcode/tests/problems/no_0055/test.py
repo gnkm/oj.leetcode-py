@@ -191,6 +191,41 @@ class TestMyCodeRecursive:
 class TestMyCodeRecursive_02:
     solution = SolutionMyCodeRecursively_02()
 
+    @pytest.mark.skip
+    def test_00(self):
+        case_num = 0
+        assert (
+            self.solution.canJump(CASES[case_num]["input"]) == CASES[case_num]["answer"]
+        )
+
+    @pytest.mark.skip
+    def test_01(self):
+        case_num = 1
+        assert (
+            self.solution.canJump(CASES[case_num]["input"]) == CASES[case_num]["answer"]
+        )
+
+    @pytest.mark.skip
+    def test_02(self):
+        case_num = 2
+        assert (
+            self.solution.canJump(CASES[case_num]["input"]) == CASES[case_num]["answer"]
+        )
+
+    @pytest.mark.skip
+    def test_03(self):
+        case_num = 3
+        assert (
+            self.solution.canJump(CASES[case_num]["input"]) == CASES[case_num]["answer"]
+        )
+
+    @pytest.mark.skip
+    def test_04(self):
+        case_num = 4
+        assert (
+            self.solution.canJump(CASES[case_num]["input"]) == CASES[case_num]["answer"]
+        )
+
 
 class TestModelAnswer:
     solution = SolutionModelAnswer()

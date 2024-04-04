@@ -70,7 +70,8 @@ class SolutionRecursively_02:
         """
         if n <= 0:
             return True
-        return any([self._can_jump(i) for i in range(1, n)])
+        # @TODO: Modify
+        return any([self._can_jump(i) and self.nums[i] >= n - i for i in range(1, n)])
 
 
 class SolutionModelAnswer:
